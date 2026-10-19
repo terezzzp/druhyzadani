@@ -1,0 +1,340 @@
+body{
+    background-color:#D7D2C8;
+    font-family:"Space Grotesk";
+}
+
+
+.obalvseho{
+    display: grid;
+    grid-template-columns: 1.35fr 0.9fr 0.9fr;
+    grid-template-areas: "hero hero copy" "understand bug change""code explain process";
+    gap: 12px;
+    width: auto;
+    max-width: 1220px;
+    margin: 12px auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+
+.dolnicast1{
+    line-height: 0.95;
+}
+
+.hero{
+    grid-area: hero;
+    background-color: #171717;
+    border-radius: 22px;
+    padding: 20px 22px;
+}
+
+.nejmensibily{
+    color:#fff;
+    font-size:12px;
+    font-weight:500;
+    margin: 20px 0 10px ;
+}
+
+
+.nadpis{
+    margin: 34px 0 12px;
+}
+
+.nejvetsi{
+    font-size: clamp(40px, 5.5vw, 80px);
+    line-height: 0.90;
+    color: #fff;
+    font-weight:700;
+    margin: 0;
+    
+}
+
+
+
+.copy{
+    grid-area: copy;
+    display: flex;
+    background-color: #FF5C35;
+    border-radius: 22px;
+}
+
+.textobal1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 20px 0 20px 20px;
+    
+
+}
+
+
+.dolnicast2{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.95;
+    align-items:flex-start;
+
+    
+}
+
+.nejmensicerny{
+    font-size:12px;
+    color:#000;
+    font-weight:500;
+}
+
+.velkycerny{
+    font-size:50px;
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+    font-size:50px;
+}
+
+
+
+
+
+
+
+.understand{
+    background-color:#F4F1E9;
+    border-radius:22px;
+    grid-area: understand;
+}
+
+
+.nejmensicernytucny{
+    font-size:12px;
+    color:#000;
+    font-weight:700;
+}
+
+
+.necomezicerny{
+    font-size:40px;
+    color:#000;
+    margin:0;
+    font-weight: 700;
+}
+
+span{
+    color:#FF5C35;
+    font-weight:700;
+}
+
+.textobal2{
+    padding:26px;
+}
+
+
+.bug{
+    background-color:#F4F1E9;
+    border-radius:22px;
+    grid-area:bug;
+    margin:0;
+    display:flex;
+}
+
+.akcent{
+    color:#FF5C35;
+    font-size: 85px;
+    font-weight:700;
+    margin:0;
+}
+
+
+
+.textobal3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 20px;
+}
+
+.dolnicast3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+
+
+.change{
+    background-color: #171717;
+    border-radius: 22px;
+    grid-area: change;
+    display: flex;
+}
+
+
+.nejmensibilytucny{
+    font-size:12px;
+    font-weight:700;
+    color:#fff;
+    margin:0;
+
+}
+
+.midbily{
+      color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.midbily:hover{
+    color:#FF5C35;
+    cursor:pointer;
+}
+
+
+.textobal4{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 20px;
+}
+
+
+.dolnicast4{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.95;
+    align-items: flex-start;
+}
+
+
+
+.code{
+    background-color:#171717;
+    border-radius:22px;
+    grid-area:code;
+     overflow: hidden;
+
+}
+
+
+
+
+.explain{
+    background-color:#F4F1E9;
+    border-radius:22px;
+    grid-area:explain;
+}
+
+
+.copypaste{
+    font-size:60px;
+    color:#000;
+    font-weight:600;
+    margin:0;
+    display:flex;
+}
+
+
+.copypaste:hover {
+    color:#FF5C35;
+    cursor: pointer;
+}
+
+.nahore{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.midcerny{
+    font-size:40px;
+    font-weight:700;
+    
+
+}
+
+.mensimidcerny{
+    font-size:35px;
+    font-weight:700;
+    margin:0;
+}
+
+.textobal5{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+
+.dolnicast5{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    margin: 60px 0 0 0;
+}
+
+
+.process{
+    background-color:#FF5C35;
+    border-radius:22px;
+    grid-area:process;
+}
+
+
+.textobal6{
+    margin:20px;
+}
+
+.dolnicast6{
+    line-height:0.95;
+    margin:90px 0 0 0;
+}
+
+.obal{
+    margin: 80px;
+}
+
+.velkybily{
+    color:#fff;
+    font-size:80px;
+    font-weight:700;
+    margin:0;
+}
+
+
+.hero,.copy,.understand,.bug,.change,.code,.explain,.process {
+    min-width: 0;
+    min-height: 278px;
+    border-radius: 22px;
+}
+
+.proc{
+    color:#fff;
+}
+
+.proc:hover{
+    color:#FF5C35;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+ .obalvseho{
+   display:flex;
+   flex-direction:column;
+
+ }
+
+
+
+
+}
